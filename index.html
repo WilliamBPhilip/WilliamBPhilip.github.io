@@ -1,68 +1,64 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!doctype html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>魏煜科生</title>
-    <style type="text/css">
-        * {
-            padding: 0;
-            margin: 0;
-        }
-body {
-    background-color: #ccc;
-}
-
-.taiji {
-    width: 150px;
-    height: 300px;
-    margin: 100px auto;
-    border-right: 150px solid #000;
-    background-color: #fff;
-    border-radius: 150px;
-    animation: rotate 2s infinite linear;
-}
-
-.taiji::before,
-.taiji::after {
-    content: '';
-    margin-left: 50%;
-    display: block;
-    width: 50px;
-    height: 50px;
-    background-color: #fff;
-    border: 50px solid #000;
-    border-radius: 75px;
-}
-
-.taiji::after {
-    background-color: #000;
-    border: 50px solid #fff;
-}
-
-@keyframes rotate {
-    from {}
-
-    to {
-        transform: rotate(-360deg);
-    }
-}
-        .div {
-            font-size: 72px;
-            text-align: center;
-        }
-    </style>
+<meta charset="utf-8">
+<title>首页-中国中学基础学科基础知识点归纳与总结</title>
+<link rel="stylesheet" type="text/css" href="CSS/all.css">
+<script type="text/javascript" src="JS/all.js"></script>
 </head>
 
 <body>
-    <div class="taiji"></div>
-    <div class="div">请稍等，一会儿精彩开始</div>
-    <div class="about">
-        关于我
-
+	<div class="header">
+		<h1>中国基础知识点归纳与总结</h1>
+        <div class="nav">
+            
+			<a href="#">课程标准</a>
+			<a href="#">语文</a>
+			<a href="#">数学</a>
+			<a href="#">英语</a>
+			<a href="#">道德与法治</a>
+			<a href="#">政治</a>
+			<a href="#">物理</a>
+			<a href="#">化学</a>
+			<a href="#">生物</a>
+			<a href="#">地理</a>
+			<a href="#">历史</a>
+            <span class="hamburger" onclick="toggleMenu()">&#9776;</span>
+        </div>
     </div>
-</body>
+		
+    <div class="content">
+		<h2>介绍 </h2>
+        <p>中学阶段是学习生涯中的重要阶段，这时期我们所学习的知识点并不只是为考试而存在，更是为我们今后的学习生活，甚至是职业生涯打下坚实的基础。以下，我们将对一些常见的中学基础知识点进行归纳与总结。</p>
 
+<h3>语文</h3>
+
+<p>在语文学习中，我们需要掌握的是汉语的基本语法规则、中国的历史文化、古代和现代的文学作品，以及较强的阅读理解能力。这些都是我们理解和表达思想的基础。</p>
+
+		<h3>数学</h3>
+
+<p>数学是一门逻辑严密的科目，需要我们掌握基础的算术运算、代数知识、几何图形的理解，以及数据分析能力。这些知识不仅是解题的工具，更是培养我们逻辑思维的重要方式。</p>
+
+	<h3>英语</h3>
+
+<p>英语学习主要包括听、说、读、写四个方面。我们需要掌握基本的语法和词汇，理解并运用正确的发音，能够通过阅读理解各种语境中的信息，以及进行有效的书面和口头表达。</p>
+
+	<h3>物理、化学、生物</h3>
+
+<p>这三门科目是自然科学的主要部分，需要我们理解并掌握物质的性质、化学反应、生物的生长和演化等基本知识。这些知识与我们日常生活息息相关，也是我们理解世界的重要途径。</p>
+
+	<h3>历史、地理、政治</h3>
+
+<p>这三门科目主要研究人类社会的历史变迁、地理环境以及政治制度。我们需要掌握重要的历史事件、地理位置、政策法规等知识，以便更好地理解当前的社会现象和问题。</p>
+
+	<h3>艺术、体育</h3>
+
+<p>艺术和体育是中学教育的重要组成部分，可以帮助我们发展丰富的情感生活和身体健康。艺术教育可以培养我们的创新思维和审美观，体育教育则可以增强我们的体质和团队合作能力。</p>
+
+<p>总的来说，中学阶段的学习不仅仅是为了考试，更是为了让我们掌握更多的知识，培养我们的各种能力。因此，我们应该珍惜这个阶段，充分利用这个时间来学习和发展自己。</p>
+    </div>
+	<div class="foother">
+		&copy; iWGP Inc 国际教育研究院亚太教育研究部 2010~2023
+	</div>
+</body>
 </html>
