@@ -1,0 +1,60 @@
+html {
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    background-color: #f8f9fa;
+    z-index: 100;
+    top: 0px;
+}
+.header>h1{
+	text-align: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+.nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.hamburger {
+    display: none;
+}
+
+.content {
+    width: 100%;
+    margin-top: 150px;
+}
+.foother{
+	text-align: center;
+	
+}
+
+@media (max-width: 1000px) {
+    .nav {
+        flex-direction: column;
+    }
+
+    .nav a {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+}
